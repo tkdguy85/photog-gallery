@@ -10,7 +10,7 @@ function App() {
 	return (
 		<div className='App'>
 			<Title />
-			<Form />
+			{/* <Form /> */}
 			<ImageGrid setSelectedImg={setSelectedImg} />
 			{selectedImg && (
 				<Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg} />
