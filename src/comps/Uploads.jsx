@@ -23,10 +23,12 @@ const Form = () => {
 
 	return (
 		<form action=''>
-			<label>
+			{/* Label tags enable adding of photos from page...
+					Need new page addition concepts. */}
+			{/* <label>
 				<input type='file' onChange={changeHandler} />
 				<span>+</span>
-			</label>
+			</label> */}
 			<div className='output'>
 				{error && <div className='error'>{error}</div>}
 				{file && <div>{file.name}</div>}
